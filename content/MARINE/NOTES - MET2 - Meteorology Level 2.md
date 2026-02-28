@@ -1,3 +1,7 @@
+---
+publish: true
+modified: 2026-02-28T08:30:33-08:00
+---
 ###### Precursor and Background
 Meteorology level 2 is the highest level of meteorology certification available, and as MET2 can be challenged without MET1, it is often more worthwhile to just go for the higher level of certification as the content are very similar. Meteorology 2 adds tropical storms, ice and a few other minor details onto the Met 1 syllabus.
 ###### Tips for Success

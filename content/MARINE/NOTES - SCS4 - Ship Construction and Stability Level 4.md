@@ -1,10 +1,14 @@
+---
+publish: true
+modified: 2026-02-28T08:59:38-08:00
+---
 
 ###### Precursor and Background
 Ship Construction and Stability 4, referred to as SCS4, is the middle level of ship stability courses offered within Canada for masters and mates. The content between SCS3 and SCS4 is largely the same, though at the SCS4 level the formulas and work touched upon in SCS3 are expanded and more calculations are done (ie. calculating free surface effect and correction, as opposed to just taking the FSE/FSC values from the ship's stability booklet.). As to the other levels of stability; SCS3 is used only for domestically limited tickets; and SCS5 is a higher level of the course which is only applicable to candidates at the master mariner or master near coastal level. 
 SCS4 is definitely one of the more difficult watchkeeping courses due to the focus on mathematics, which can also make it out to be much more intimidating than it needs to be.
 
 ###### Tips for Success
-To succeed in SCS4 I would highly recommend completing a math refresher course focused on algebra and touching up on multiplication/division, trigonometry, and interpolation (I would highly recommend excluding excel tutorials from search results if looking for a tutorial on interpolation). Interpolation is used frequently when interpreting data given in the ship's stability booklet. The BEDMAS order of operations is used for formulas, so if you've ever used different order of operations through your scholastic career, forget what you know and adhere to BEDMAS because it's just non-negotiable. 
+To succeed in SCS4 I would highly recommend completing a math refresher course focused on algebra and touching up on multiplication/division, trigonometry, and interpolation. Interpolation is used frequently when interpreting data given in the ship's stability booklet. The BEDMAS order of operations is used for formulas, so if you've ever used different order of operations through your scholastic career, forget what you know and adhere to BEDMAS because it's just non-negotiable. 
 Using others' standard stability formula sheets can be helpful to gauge which formulas from the material are noteworthy and used frequently; but ultimately it will be the most helpful to create your own formula sheet and take care noting what each value within the formula actually represents (ie. whether the value 'D' refers to draft, depth, or distance to a particular point.). There are between 30-40 formulas which are used repeatedly for calculation. This is a very intimidating course, so any work which can be done to split it into bite-sized chunks will really aid the learning process. 
 
 ### Resources

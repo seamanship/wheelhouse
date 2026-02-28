@@ -1,3 +1,7 @@
+---
+publish: true
+modified: 2026-02-28T08:30:37-08:00
+---
 ## General Ship Knowledge 3
 
 ### Acquiring Publications Used
