@@ -8,4 +8,4 @@ see [notes on setting up quartz with obsidian](https://notes.nicolevanderhoeven.
 >*changes directory to right spot*
 >
 >npx quartz sync
-*pushes update*
+>*pushes update*
