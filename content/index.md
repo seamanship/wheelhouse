@@ -1,5 +1,5 @@
 ---
-title: Digital Maritime Garden
+title: Digital Wheelhouse
 modified: 2026-02-28T14:04:32-08:00
 publish: true
 ---

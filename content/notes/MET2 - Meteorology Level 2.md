@@ -1,9 +1,18 @@
 ---
 publish: true
-modified: 2026-02-28T08:30:33-08:00
+modified: 2026-02-28T20:10:57-08:00
+tags:
+  - meteorology
+  - WKM
+title: MET2 notes
 ---
+- [ ] touch up links
+- [ ] browse notes and touch up as needed heading into orals
+- [ ] add syllabus
+
 ###### Precursor and Background
 Meteorology level 2 is the highest level of meteorology certification available, and as MET2 can be challenged without MET1, it is often more worthwhile to just go for the higher level of certification as the content are very similar. Meteorology 2 adds tropical storms, ice and a few other minor details onto the Met 1 syllabus.
+
 ###### Tips for Success
 Study the Reed's textbook since it's the one the examiners use for marking. I can't give out the sample exams or I will be in big trouble.... but there are a lot of them floating around, so make some friends and ask around because they're pretty easy to come by. There is a lot of technical content, so focus on the syllabus and use Kemp and Young's notes on meteorology to further narrow the scope of your studies.
 
@@ -18,7 +27,6 @@ Study the Reed's textbook since it's the one the examiners use for marking. I ca
 
 ***
 ### Composition of the Atmosphere
-#atmosphere #troposphere
 
 **Composition**: dry air is composed of a mixture of gases; within about 10 miles of earth's surface (the principal zone of interest). The main gases are 78% Nitrogen and 21% Oxygen; the rest of the gases are argon, carbon dioxide, helium and ozone. The area of chief meterological interest is not in these gases however; it is concerned with the presence of **water vapour** in the atmosphere. Unlike gases, water vapour in the air varies depending on changes in temperature, evaporation, precipitation and condensation.
 
@@ -28,7 +36,6 @@ distribution of the temperature in the atmosphere as height increases. fig 1.1 i
 **Vertical Structure of the Atmosphere**: the atmosphere is not just one bubble which surrounds the earth; it is a series of multiple invisible 'bubbles', each exerting force from the weight of air in that layer which acts in all directions, vertically up and down as well as horizontally in all directions. The first of these atmospheric layers is called the **troposphere** and it is where most of the meterological phenomenae which effect the weather occur; it is also the area subject to the greatest amount of barometric pressure because it is the innermost atmospheric layer. The troposphere does not enclose earth in a perfect circle- the height of the troposphere can vary greatly depending on temperature (hotter areas cause air to lift and expand, which is touched on later when discussing [wind and atmospheric pressure](https://safe.voyage/seamanship/met2#wind)) and it is at its highest at the equator (~16km) and shortest at the poles (~9km); on average, the height of the troposphere is around 12 km. As air moves up through the troposphere it loses heat as altitude increase. The top of the troposphere is called the _tropopause_, which is the trend for each subsequent layer. Above the troposphere is the **stratosphere**, where temperature largely remains constant as height increases. The key component of the stratosphere is that it is where _ozone_ tends to build up, which abosrns solar heat and may warm the air at this level. Further above the stratosphere is the **mesosphere**, where temperature decreases _greatly_ as height increases. The ionosphere, which is more important in the world of radio and satellite transmissions than it is meterologically, comprises the upper mesosphere and the other outermost atmospheric layers (which are not touched on becasue they are irrelevant to meterology).
 
 ### Solar Heating
-#troposphere 
 
 ![](https://sanji.neocities.org/imageuploads/marine/metequatorheating.jpg) ![](https://sanji.neocities.org/imageuploads/marine/metheatdistribution.jpg)
 inclination of the solar beam to the earth's surface
@@ -45,7 +52,6 @@ heating processes which impact the heating and cooling of the earths atmosphere-
 these 5 processes have come up on previous examinations and these answers are formatted to align with the examination long answers.
 
 ### Precipitation
-#rain #hail
 
 **Rain and Drizzle**: 'precipitation' is a generic word which refers to most forms of water deposit derived from the condensation of water vapour. Dew is a deposit of water formed by condensation on surfaces which have been cooled by radiation below the dew point. Drizzle is a condensed water droplet which is relatively very small (betweeen 0.2-0.5mm in diameter); if it is any larger than that, it is referred to as rain. The size of a cloud droplet is related to the size of trhe nucelei on which it forms; larger droplets have a greater speed of descent which may exceed the speed of the updrafts, allowing it to exit the cloud. Stratus clouds produce drizzle, but cumiliform clouds produce rain, because clouds of great vertical extent create the ideal 'cycling' conditions for rain to move through the cloud, growing in size.
 
@@ -58,7 +64,6 @@ these 5 processes have come up on previous examinations and these answers are fo
 **Frost, Snow and Hail**: when water vapour condenses at temperatures well below the freezing point it forms tiny ice crystals, which during their descent build up into snowflakes. _Hail_ falls from cumulonimbus clouds in hard ice pellets. Water droplets can exist in a cloud in a _supercooled_ state, where they are liquified but suspended below the temperature where water would freeze; when they make contact with a suitible nuclei they freeze instantly, creating an ice crystal. If supercooled water droplets are carried up to a height where ice crystals already exist, the crystals may act as suitable nuclei, forming white pellets of ice. In all cases; when its size increases its speed of descent may exceed the speed of updraft, at which point the droplet will exit the cloud. Hailstones falling can also freeze water droplets close to the freezing point, which coats the droplet in hard ice.ea
 
 ### Humidity and Condensation
-#condensation #saturation
 
 **Water Vapour, Saturation, and the Dew Point**: water vapour is water in its invisible gaseous state, and forms the basis for virtually all weather occurances. Clouds are formed from visible water droplets suspended in the _liquid state_. The maximum quantity of water vapour which can be contained within a given volume of air is limited by temperature; and when the maximum possible amount of water vapour is present in the air (when the point of relative humidity is 100%) it is said to be **saturated**. Air containing less than the maximum possible quantity is said to be **unsaturated**; but this volume of air also has the potential to become saturated air if it cools to the _dew point_. The dew point of saturated air is considered to be its temperature. As unsaturated air loses heat and becomes saturated, any further cooling beyond this results in excess water vapour condensing into the liquid or solid state (visible water droplets or ice crystals).
 
@@ -67,12 +72,10 @@ these 5 processes have come up on previous examinations and these answers are fo
 **Hydroscropic Nuclei**: within the troposphere there is always present a varying quantity of very minute solid particles, such as dust (not generally considered a hydroscopic nuclei), salt from sea sprau, soot and smoke from fires, and other sources of pollution. Most of these particles are hydroscopic and attract and absorb moisture. They are the foundation onto which water vapour condenses, becoming visible water droplets (cloud or fog). Without hydroscopic nucelei in the air condensation would be improbable. These particles are most abundant near the surface of the earth and are carried into the upper levels by convection. Over industrial areas where there is a high degree of pollution, fog can form before the dew point is reached.
 
 ### Thunderstorms
-#cloud #storms
 
 **Formation**: in order for a thunderstorm to form, it must have the necessary conditions to facilitate development. Thunderstorms develop in cumulonimbus clouds with enough vertical lift and updraft to facilitate the cycling of rain throughout the cloud (as in, the speed of updrafts must always exceed the downward force of droplets). This process is very much the same for the development of hail in clouds, though slightly different (as hail requires freezing temperatures). The electrical charges inside a cloud, which produce lightning, build up from the intense activity within the cloud; it is found that the tops/upper parts of thunder cloudshave a positive electrical charge, whereas the lower regions are negatively charged, save for one localized region of positivity. The electrical charges come from the splitting of raindrops as coalescence makes them larger than 5.5mm, causing the droplets to break in half- with the splitting producing negative energy and the drops themselves retaining a positive charge. This is why the charges are localized within the cloud as they are.
 
 ### Cloud Development
-#stratus #cumulus #fog #cloud 
 
 **[Cloud Types and Classification](https://en.wikipedia.org/wiki/List_of_cloud_types)**: low level clouds are stratiform (stratus and nimbostratus), mid level tend to be altiform (altostratus or altocumulus), high level are cirriform (cirrus, cirrostratus, cirrocumulus), and lastly clouds which form in lower levels but which span great vertically are cumuliform (cumulus and cumulonimbus).
 
@@ -106,7 +109,6 @@ Diagrams of air stability. 5.3a is stable air; b is unstable air; and c is condi
 - **Frontal**: the warm air fo the warm front moves more quickly than the cold air mass, which causes it to be undercut by the cold, dense wedge of cold air, causing the warm air to lift up over it. Ahead of the warm front (~1000km ahead) high clouds form as the warm air is forced upo vertically, cooling adiabatically and reaching saturation to form clouds; cirrus (Ci) and cirrostatus (Cs). Within 500km of the front, and mid-level altostratus (As) cloud form, and near approach to the front low nimbostratus (Ns) form.
 
 ### Restricted Visibility
-#fog
 
 **Fog**: there is no difference between 'fog' and a 'cloud'; they are formed by the same processes, but when a cloud begins to form close to the surface it is called fog. The terminology changes depending on the range of visibility; _fog_ refers to a condition where visibility is limited to less than 1,000 meters horizontally; when visibility is more than 1,000 meters and less than 2,000 it is called either _mist_ (if it is formed by water vapour) or _haze_ (if solid particles like soot or ash are in the air limiting visibility).
 
@@ -118,7 +120,6 @@ Diagrams of air stability. 5.3a is stable air; b is unstable air; and c is condi
 - **Sea Smoke/Arctic Sea Smoke**: occurs close to the sea surface when the air is dry and cold, at least 9 degrees Celcius colder than the sea surface temperature. Rapid evaporation occurs as a _relatively_ warm sea surface makes contact with the cold air, and the cold air becomes saturated to its dew point, where fog occurs. Has the distinct appearance of a 'steaming' sea. This is the only type of fog which can be associated with strong winds, as a continuous supply of cold air is needed. This type of fog is commonly seen in the Arctic and Antarctic, and sometimes off the northeastern coast of Newfoundland in winter.
 
 ### Waves
-#waves #oceanography 
 
 **Characteristics of Waves**: when the wind blows over the surface of the water, the friction of the wind creates waves in the water; up to a limit, the stronger the wind is, the greater the wave height will be. The distance in which wind has travelled over water in one direction is called the 'fetch', and this is another factor in wave growth in the open ocean. Waves which are caused directly by wind blowing at the time of observation are called 'sea waves', but waves which have been created sometime beforehand by winds blowing in an area a distance away are called 'swell waves'. Swell waves may have a long wave length proportionate to their height. Waves are described with **length** (horizontal distance between successive crests), **period** (time between crests), **speed** (knots at which crests advance) and **height** (vertical distance from crest to trough). The length is found through the formula 1.56 x period squared, and the speed is found by multiplying the period x 3.1. The steepness of a wave is described by the ratio of height to length (H/L); the height is not specifically related to other factors because when the steepness exceeds 1/13 the wave will break (expressed as H/L > 1/13).
 
@@ -145,7 +146,6 @@ Diagrams of air stability. 5.3a is stable air; b is unstable air; and c is condi
 |12|64+|hurricane|air filled with foam and spray. Sea entirely white with foam. Visibility seriously impaired.|
 
 ### Wind and Atmospheric Pressure
-#wind #coriolis #airmass
 
 **Cause of Wind**: wind is caused by atmospheric pressure; the weight of all the air in the atmosphere pressing down on the earth and the troposphere. Pressure decreases as height increases and surface pressure can vary continually. Barometric pressure is typically expressed in hPa or millibars and is expressed on a chart through _isobars_, which connect and encircle areas of equal barometric pressure. Atmospheric pressure is exerted equally in all directions; horizontal movement of air is caused by the differences in pressure between one point in that level and another. This difference in pressure produces a **pressure gradient force**, which acts to move air from high pressure to low pressure. Horizontal pressure gradient force acts at right angles to the isobars, but is not the only force which acts upon the air; the rotation of the earth also produces a force upon the wind called the [coriolis force](https://en.wikipedia.org/wiki/Coriolis_force) that appears to deflect air to the right in the northern hemisphere, and to the left in the southern hemisphere. At heights of 600 meters or more the effects of surface friction can be ignored and the geostrophic wind blows parallel to the isobars.
 
@@ -177,7 +177,6 @@ Lift of airmasses and global distributions of pressure and wind
 These particular wind mechanisms are touched on because they have appeared in previous examination material. A list of local winds is on page 55 of Reed's Meterology, and all breezes are touched upon in the Glossary
 
 ### Air Masses
-#airmass #wind #cloud #fronts
 
 ![](https://sanji.neocities.org/imageuploads/marine/met%20movement%20of%20air%20masses.png)
 
@@ -216,7 +215,6 @@ WARM and moist air flows over a COLD sea surface- becomes cooled at the surface 
 - this sort of air mass movement is typical to the west coast of Vancouver Island when under the influence of the warm sector of a mid-latitude depression
 
 ### Isobaric Patterns
-#isobars #wind #pressure #depression #anticyclone
 
 ![](https://sanji.neocities.org/imageuploads/marine/depression%20rige.png) ![](https://sanji.neocities.org/imageuploads/marine/anticyclone%20ridge.png) ![](https://sanji.neocities.org/imageuploads/marine/metdiagrams.png)
 
@@ -231,7 +229,6 @@ Isobars are capable of forming 7 distinct forms; though of these 7, only 2 types
 **Cols and Straight Isobars**: the col is an area of indeterminate pressure located between two highs and two lows, which are arranged alternately. It is associated with light variable winds, but is often thundery in summer and dull/foggy/misty in winter. Straight isobars is a straightforward condition where the pressure distribution over a large area results in mostly straight isobars which run parallel to one another. This is usually assocaited with the outlying portion of a large depression or anticylone.
 
 ### Fronts
-#fronts #airmass #depression
 
 **Fronts and Frontal Systems**: when two air masses of different characteristics meet they do not mix freely but instead remain seperated by a boundary called the frontal surface. Such a boundary is represented on a weather chart as a **front**. The positions of frontal zones marking the boundaries between the principal air masses fluctuate constantly while their mean positions move north and south with the seasons.
 
@@ -274,7 +271,6 @@ vertical sections of warm and cold fronts. from page 89-92 of [Reed's](https://s
 **The Occluding of a Depression**: the cold front advances faster than the warm front and gradually overtakes it commencing at the tip of the warm sector and working down the length of the front until the occluding process has been completed and all the tropical air has been lifted off the ground. The chart symbol for occlusion is a combination of the warm and cold front symbols, and is usually colored in purple. An occulsion is classified as warm or cold according to whether the overtaking polar air (the air at the cold front) is warmer or colder than the retreating polar air (the cold air acting as a 'ramp' for the warm air at the warm front)- if air at the rear is warmer (**a warm occulsion**) then it will also slope up the 'wedge' of cold air at the front; and if air at the rear is cooler (**a cold occulsion**) it will 'roll' over the rest of the air much like how it appears in the vertical section of a cold front (figure 13.5). In both these cases the warm air is lifted up off the ground completely. Since the energy needed to maintain the frontal depression is largely derived from the supply of air in the warm sector, it follows that the larger the warm sector is, the more the frontal depression is able to develop even during the process of occlusion. Later this development ceases and movement of the depression may slow to a crawl while it becomes dependant on the upper movement of air and gradually 'fills in' as it weakens and later disappears. The arrival of a new and more vigorous front can destroy the old circulation and cause it to fill up very quickly.
 
 ### Non-Frontal Depressions
-#depression #airmass 
 
 **Convergence and Divergence**: the term **convergence** describes an area in which the horizontal inflow of air exceeds the horizontal outflow of air at the same level; excess air escapes vertically. Except in arid regions convergence is usually associated with much cloud and precipitation- such as in fronts and centres of depressions. **Divergence** describes the opposite of convergence- an area where the horizontal outflow of air exceeds the horizontal inflow at the same level; and the deficiency of air is restored by vertical movement (when divergence occurs at the surface level rather than in the upper air, this vertical deficiency is filled by subsidence). **Subsidence** is the slow downward motion of air which is warmed adiabatically on descent, and when divergence is filled by subsidence it is associated with great stability.
 
@@ -287,7 +283,6 @@ Formation of non-frontal depressions (Fig 14.1, specifically the leftmost column
 - when the inflow of air at the surface exceeds the outflow at height the depression will fill up
 
 ### Anticyclones
-#anticyclone #airmass 
 
 **Formation**: figure 14.1 showing the systems of convergence, divergence and subsidence also shows the formation of an anticyclonic system (on the right side). Convergence at the upper level increases the quantity of aand total weight of air within a limited area, causing barometric pressure to rise at the surface. In the northern hemisphere the flow of wind is clockwise and the wind blows outwards crossing the isobars, moving from high pressure to areas of lower pressure. The outflowing of surface air is replaced only by dry air descending vertically from above (subsidence of air). Like with non-frontal depressions, the system is dependant on the flow of upper air to maintain it- if the convergence at the upper level exceeds the surface divergence the system is maintained. When the convergent flow of air at the upper level ceases to feed the subsidence the system will decline. The air at the upper levels is dry and warmed by compressional heating as it _subsides_ into regions of higher pressure; thus in the central area of a well developed anticyclone the air 500 meters above ground is generally warmer than the air below. This increase of temperature with heigt is called an inversion (think back to the environmental lapse rate and both the 'isothermal inversion' and 'inversion at height', which are both inversions caused by subsidence). Since ascending air is core to the development of cloud and rain, the center of an anticyclone is generally associated with fine and dry weather.
 
@@ -300,7 +295,6 @@ Formation of non-frontal depressions (Fig 14.1, specifically the leftmost column
 - **Temporary Anticyclones**: may develop as a result of continued subsidence within a temporary cold high which remains stationary for a long period.
 
 ### Tropical Revolving Storms
-#depression #navigation #wind #storms
 
 **All About TRS**: a tropical revolving storm, also known as a 'cyclone', 'hurricane' or 'tropical storm' (among other regional names) is a rapidly rotating storm systems within a depression. The isobars of a TRS form close to true circles and have a very steep pressure gradient; hence the very intense winds within the system. Tropical storms are associated with winds greater than Beaufort force 7 or greater (up to force 12 in the case of hurricanes). Most often, tropical revolving storms will form on the western side of oceans- but they do not form within 5 degrees of the equator because the coriolis force is too weak at these latitudes to create circulation. TRS develop from pre-existing 'seeds' of disturbance such as easterly waves and clusters of clouds associated with the Intertropical Convergence Zone. After forming, tropical cyclones generally travel northwesterly (in the northern hemisphere) or southwesterly (in the southern hemisphere), recurving at about 20 degrees or more of latitude and then moving either northeast or southeast (depending on hemisphere). The point of recurvature on the track is called the _vertex_ (do not confuse this with 'vortex', which is the eye of the storm). The tracks can vary considerably and depend on general pressure distribution existing at the time. When a storm crosses onto dry land it tends to die out rapidly from lack of moisture- but this is not always the case (a good example of this is in the [Bay of Bengal nearby India](https://en.wikipedia.org/wiki/Tropical_cyclones_in_India)). Some storms reach into temperate latitudes, but by this time they will have increased in size and lost much of the original intensity; leading them to assume the general characteristics of a temperate latitude depression complete with fronts, or to become absorbed in the circulation of a frontal depression. The speed at which a TRS moves varies, falling considerably or even remaining stationary at the vertex but increasing rapidly (~20kts) after recurvature.
 
@@ -326,7 +320,6 @@ the diagram accompanying is from Reed's Marine Meterology page 126 and illustrat
 - **Vessel Overtaking Storm (vessel D)**: this is an unsual circumstance, but ships today can make great speeds and mayu overtake a storm. Heave-to; the wind will shift to the right and the barometer will rise to show the ship is in the rear quadrant of the dangerous semicircle ahead of the trough; she should then get the wind onto her starboard bow (as vessel E demonstrates). If ship D does not heave-to when the storm is first suspected and continues her course, the barometer will fall and the wind will veer to the left. This could lead to an incorrect assumption that the ship is in the safe side of the semicircle ahead of the trough, and she may run into the dangerous quadrant without realizing.
 
 ### Ocean Surface Currents
-#currents #oceanography
 
 **Causes of Surface Currents**: surface currents can generally be divided into two categories; drift currents (caused directly by the wind) and gradient currents (caused indirectly by wind/by density differences in adjacent areas). The wind is the primary agent causing currents; most typically the stronger the wind, the stronger the current becomes. When the wind blows in one direction for an extended period of time (ie. by the Trade Winds) the surface current tends to flow in that general direction; but like wind, currents also become subject to the Coriolis Force and the flow of water becomes deflected to 90 degrees from the wind direction (the force of this effect diminishes as it penetrates deeper into the water. this diminishing of the coriolis force with depth is referred to as the [ekman spiral](https://en.wikipedia.org/wiki/Ekman_spiral)).
 
@@ -340,7 +333,6 @@ Currents of Note:- **North Equatoral Current**: known as a 'drift current'. Caus
 A list of all major sea currents can be found on page 155 of Reed's Meterology, with more descriptions of general location, flow rate, and temperature.
 
 ### Ice
-#ice #navigation
 
 **Reporting of Dangerous Ice**: the master of every ship which meets with dangerous ice or encounters sub-freezing air temperatures associated with gale force winds causing severe ice accretion on the superstructure is bound to communicate the information by all means at their disposal to ships in the vicinity and to the competent authorities at the first point on the coast at which they can communicate. On meeting with ice the information to be reported is; the kind of ice which is observed (frazil, grease, shuga, pancake, pack ice, etc....), the position of the ice when last observed, and the date and time in UTC when the ice was last observed.
 

@@ -1,7 +1,15 @@
 ---
 publish: true
-modified: 2026-02-28T08:59:38-08:00
+modified: 2026-02-28T20:11:41-08:00
+tags:
+  - stability
+  - construction
+  - diagrams
+  - WKM
+title: SCS4 notes
 ---
+- [ ] add diagrams and scanned work
+- [ ] add formula sheet (either a scan of my own or a screenshot of the formulas from kemp and young)
 
 ###### Precursor and Background
 Ship Construction and Stability 4, referred to as SCS4, is the middle level of ship stability courses offered within Canada for masters and mates. The content between SCS3 and SCS4 is largely the same, though at the SCS4 level the formulas and work touched upon in SCS3 are expanded and more calculations are done (ie. calculating free surface effect and correction, as opposed to just taking the FSE/FSC values from the ship's stability booklet.). As to the other levels of stability; SCS3 is used only for domestically limited tickets; and SCS5 is a higher level of the course which is only applicable to candidates at the master mariner or master near coastal level. 
@@ -71,7 +79,6 @@ Transverse stability is more critical than longitudinal stability, simply becaus
 >moments of force = weight x distance
 
 ## Density (ρ), Mass and Volume
-#density #mass #volume
 We know that two objects can have the same mass but take up different volumes (1 tonne of feathers vs 1 tonne of bricks); this is due to their densities being different. Thus, it can be said that mass, volume and density all have a relationship to one another. [Density](https://en.wikipedia.org/wiki/Density) is a representation of mass per unit volume, which comes more into play when discussing sinkage/rise and draft, or how much cargo may be loaded within a specific space (like oil which is less dense than water, or iron ore which is a very dense cargo). 
 
 >mass = density x volume
@@ -79,7 +86,6 @@ We know that two objects can have the same mass but take up different volumes (1
 >density = mass / volume
 
 ## Displacement △
-#displacement #density #volume
 displacement is defined as the number of tonnes of water it displaces, and is sometimes referred to as the *volume of displacement*. The volume of the ship's underwater space could be found by multiplying the length by the breadth and draft; however this will not give a true representation of the volume of displacement because the *density of the water* has not been accounted for. Because the *relative density* of fresh water is 1.000 t/m3, the volume of displacement is as straightforward as L x B x D, because these values would be multiplied by 1 and nothing would change about the equation. When the *relative density* or [*specific gravity*](https://en.wikipedia.org/wiki/Relative_density) (sometimes referred to as SG) is not equal to 1, the volume of the ship must be multiplied by that number in order to find the volume of displacement. The *relative density* of seawater is 1.025 t/m3, so the **seawater displacement** of a vessel is equal to the L x B x D x 1.025. If the displacement in an area not purely sea or fresh (such as a harbour or estuary), then the formula for displacement is L x B x D x ρ, which is usually referred to as *dock water density*.
 
 >△sw = L x B x D x 1.025
@@ -87,7 +93,6 @@ displacement is defined as the number of tonnes of water it displaces, and is so
 >△dw = L x B x D x ρ
 
 ## Loadlines and Draft
-#draft #loadlines #plimsoll #class
 Draft and loadlines are hopefully not new concepts by this time. The [plimsoll line](https://en.wikipedia.org/wiki/Load_line_(watercraft)), which is the foundation of all loading lines, came into practice in 1870 to regulate the amount of cargo which can be safely loaded onboard ships to maintain stability. In the modern era, the plimsoll line is representative of a vessel's verifiable safety, as in order to receive the welded mark on the side of the vessel from a classification society (such as Lloyds Register, or the American Bureau) she must first pass a number of criteria set out by them. 
 
 Safety is increased by ensuring;
@@ -113,12 +118,10 @@ To touch back upon draft, we also will sometimes see the term 'statutory freeboa
 >FW to SW = vessel rises
 >SW to FW = vessel sinks
 ## Ship Shapes
-#boxshape #WPA 
 As ideal as it would be, mathematically, for ships to be rectangular shaped objects- we know that this is very rarely the case. Barges are the quintessential 'box-shaped vessel', but there are also other cases where this is true. Box-shaped vessels are easy to deal with as their water-plane area is as simple as length times breadth (WPA is a measure of the area of the ship for 1cm of immersion at the waterline). WPA for normal ship shapes is discussed later, alongside [[#Simpson's Rules]]. For now, we will use the given WPA value, as opposed to calculating it ourselves outside of for box-shaped vessels.
 
 ![new draft/old draft = old density/new density formula]()
 ## Tonnes Per Centimetre Immersion (TPC)
-#sinkage #rise #TPC 
 The measure of how much a vessel will sink when weight has been added or removed is referred to as *tonnes per centimetre immersion* or TPC. TPC is a measure of how much the draft will change by 1cm per tonnes of cargo loaded or discharged *in a specific density of water*. If the TPC was 30, then that would mean that it would take 30 tonnes of cargo to change the vessel's draft by 1cm. Because TPC uses the WPA to calculate sinkage or rise, box-shaped vessels will have a constant WPA, whereas standard-shaped vessels will have different TPC values depending on the WPA being measured. To describe the increase or decrease of draft, we use the words sinkage or rise in accordance. When TPC is given without specifying the density, we always assume it is the TPC for seawater (TPCsw). Because the density of water in the harbour is rarely pure sea or pure fresh water, for the highest degree of accuracy we want to convert it to TPCdw using the differences in the density. The formulas for TPC are below the following example.
 
 *A vessel with a draft of 8.00m loads 375 tonnes of cargo. If the TPC is 21.0 and cargo is being loaded (therefore sinking the ship), we would take the weight of the cargo and divide it by the TPC to determine sinkage in centimetres. In this example, the vessel's sinkage is 17.85cm, or approximately 0.18m, increasing the draft to 8.18m.
@@ -130,14 +133,12 @@ With TPC, we normally divide the cargo weight by the TPC to find the sinkage/ris
 >TPCdw = (TPCsw x dock density) / 1025 <- we remove the decimal completely from the density value when using this formula to convert from TPCsw to TPCdw.
 
 ## Fresh Water Allowance / Dock Water Allowance
-#FWA #DWA 
 Because the density of fresh water and dock water causes the ship to sink deeper in these waters, we can account for this sinkage using *fresh or dock water allowance*, allowing the ship to achieve a desired draft when in salt water. DWA/FWA tend to work together with TPC when a vessel is dealing with cargo, because the DWA/FWA value will change the sinkage/rise possible and will allow more cargo to be loaded or discharged from the ship! DWA/FWA can also be used to determine the change of draft when moving between densities of water.
 
 >FWAmm = △/4TPC <- you can obtain a FWA in centimetres by dividing by 40TPC if desired.
 >DWA = (FWA x (1025 - density)) / 25 <- whether the DWA is in millimetres or centimetres will depend on which value the FWA uses. For this formula, we remove the decimal from the density values used.
 ***
 ## Transverse Stability (MGBK)
-#stiffness #tenderness #GM #GZ #heeling #hamburgerstyle 
 [Stability](https://en.wikipedia.org/wiki/Ship_stability) can be defined as the ability of a vessel to return to the upright position after being disturbed my some external force, such as wind or waves. A good and stable vessel is able to withstand not only the effect of wind and waves heeling her over, but will also return to the upright position after tilting during a steep turn. We are not as concerned with longitudinal stability as we are with transverse stability, because as stated earlier the width of the vessel is never as great as the length of the vessel; ships are also designed to handle fore/aft movement and the pounding of waves head-on, so it can be said that taking force on the side is not what the ship is specifically designed to do. Transverse stability is of the utmost importance onboard.
 
 ![diagram showing MGBK in a stable state and heeled state]()
@@ -174,7 +175,6 @@ The forces of gravity and buoyancy work vertically regardless of the ship's posi
 
 In terms of transverse movement, we have both [[#^heel]] (describing external and temporary inclining forces like wind) and [[#^list]] (describing internal inclining force where corrective action must be taken, like shifting cargo). When the vessel heels, as long as it is in stable equilibrium the righting lever will create a righting moment and return the vessel upright.
 ## About 'K'
-#KG #KB #KM #GM #BM
 If we were to observe the vertically aligned forces of MGBK, we would see that because K is the lowest point if we were to measure various values from K, we are able to use those values to isolate other distances between points. One of the most common uses is using KM and KG (VCG) to isolate and determine the GM.
 
 >KM - KG = GM
@@ -198,7 +198,6 @@ As mentioned briefly in [[#Transverse Stability (MGBK)]], the value KN is used t
 
 ![diagram demonstrating KNB angle]()
 ## Vertical Movement of 'G'
-#GM #GZ  #GG1
 When weight is added, discharged, or shifted, then G will move in the same direction as the cargo. The shift of G from it's initial position to a new position is referred to as the G-G1. If cargo was added to the vessel, the GG1 would increase and thus the KG would *decrease*, *increasing* the GM. If cargo was discharged, then GG1 would decrease and thus KG would *increase*, *shrinking* the GM. With the shifting of cargo, it could go either way depending on the direction that cargo is shifted, but the key takeaway for the shift of cargo is that the displacement *will not change*.
 
 >[!info] used for the shifting of cargo only
@@ -286,7 +285,6 @@ A key takeaway is that FSE only effects vertical GM and is accounted for when so
 
 Free surface moments (FSM) are given in the stability booklets and are sometimes referred to as *intertia moment*. The Gypsum Centennial stability booklet used in SCS4 has a section on free surface calculations and *includes an example of how to calculate free surface corrections* as is legally required. 
 ## Hydrostatic Tables and Stability Books
-#GZ
 When a vessel is first constructed, the naval architect will consider the nature of work the vessel will be conducting and the states that it will be operating in. Using these considerations, hydrostatic data will be calculated in various states and is published in the vessel's specific stability booklet in the *hydrostatic tables*. In SCS4, the 'M/V Gypsum Centennial' and 'M/V Sept-iles' stability books are used for examinations and practice reading hydrostatic data. 
 
 One of the most significant pieces of information found in the hydrostatic tables is the *curve of statical stability*. This curved diagram gives key information such as...
@@ -307,12 +305,10 @@ One of the most significant pieces of information found in the hydrostatic table
 
 ***
 ## Summary of Transverse Stability
-#summary
 Transverse stability is the most important plane of stability relevant to the ship's safety because the ship is never as broad as it is long. The metacentric height (GM) determines the safety (and therefore seaworthiness) of a vessel by determining the uprighting potential of the vessel against heeling factors (such as wind, waves, or heel that occurs as the vessel turns). The GM and righting potential of the ship is regulated and vessels must comply with minimum standards across the industry (often varying depending on the type of vessel), ensuring that loading operations never compromise the GM to endanger the vessel and crew.
 
 ***
 ## Longitudinal Stability / Trim
-#trim #hotdogstyle
 Longitudinal stability focuses on trim, the difference between the fore and aft drafts. Most vessels are often trimmed by the stern as opposed to by the head in order to increase their propellor immersion and thus their propulsion/manoeuvrability. Ships will have a forward and after draft marking, as well as a marking at amidships. The importance of the midship marking is determining a vessel's hog or sag (also called *distortion*) by comparing the actual midship draft reading to the mean draft obtained by taking the average between the fore and aft drafts. Of note as well is that drafts are not at the extreme far ends of the vessel due to the nature of construction (coming into play with conversion tables given in the hydrostatic tables). When looking at a vessel longitudinally, the extreme length of the ship (LOA or *length overall*) is rarely used for calculations, and instead the length between perpendiculars (LBP) is used. The perpendiculars of the ship measure from an invisible vertical line passing through the rudder post on the aft end, to the curve of the stem on the forward end. Midships is considered to be the point exactly in the middle of the perpendiculars (half of the LBP); but the ship also does not necessarily pivot at the midships and actually pivots at the *longitudinal centre of floatation* or LCF, which can be forward (sometimes referred to as *FOAM*S), aft (sometimes referred to as *AOAMS*) or directly on the midship line. The LCF changes position depending on the cargo load and is obtained from the hydrostatic tables. Because the ship pivots at the LCF, which is not always on the midship line, then this also means that the most accurate measure of draft (TMD or true mean draft) is the draft obtained at the LCF. The TMD is obtained by applying a correction to the mean draft. The *layer correction* is the difference between drafts (trim) multiplied with the distance of the LCF from midships, and this value is divided by the length between perpendiculars. These formulas are expressed below;
 
 >True Mean Draft = mean draft + layer correction
@@ -329,7 +325,6 @@ The amount of weight which would have to be added, removed, or shifted onboard i
 
 The big takeaway of longitudinal stability is that there is a lot more stability leeway in the shifting of weights onboard due to the construction of the vessel and nature of cargo shipping. It is necessary to balance the overall weight between the forward and aft ends of the vessel to reduce stresses on the ship (which can lead to distortion and breaking), and because of these reasons the vessel has a number of ballasting and cargo tanks over the length which allow weight to be loaded in different locations. For example, the gypsum centennial has 4 main cargo tanks (2 foams and 2 aoams) and a large number of tanks (such as the aft peak tank on the far stern and the forepeak tank on the far bow), which all have their own individual longitudinal centres of gravity and thus allow many different adjustments to trim and draft. Longitudinal stability is the same as transverse stability in the sense that it ultimately revolves around the balancing of forces on both ends of a scale.
 ## Change of Draft / Change of Trim
-#hogging #sagging #CoD #CoT #trim
 We know now that the vessel pivots at the LCF as weight is added or moved (expressed through the MCTC value). If the draft was to change at one end due to the overall change of trim, then it would naturally follow that if the aft draft was to increase, *then the forward draft would decrease proportionately* on the opposite end. Change of draft can be determined through multiple means. From a practical standpoint, the hydrostatic tables will contain a trimming table for a value of weight (such as 100 tonnes), and using the trim tables in accordance with small values of weight added or removed (typically around or under 1000 tonnes for a large ship like the Gypsum Centennial), we can easily obtain the changes to the forward and aft draft by following the steps given in the stability tables. 
 With larger weights added or removed to a single tank onboard, we can determine the change of trim by factoring the weight and LCG of the tank over the MCTC, yielding a net change of trim which can then be broken down into a change of draft forward and aft using the LCF. Using this method, we must also factor in the sinkage or rise using the TPC, which we add or subtract from the overall change of draft to the original forward and aft drafts.
 
@@ -378,7 +373,6 @@ Because trimming moments uses the same total moments / total weight equation tha
 
 ![example of large trimming moments problem]()
 ## Simpson's Rules
-#LCF #KB #WPA
 [Simpson's rules](https://en.wikipedia.org/wiki/Simpson%27s_rules_(ship_stability)) are a set of mathematical rules used in ship stability and naval architecture to find the area of an irregular shape represented as a curved area subdivided by ordinates (number of partitions within the curve). Simpson's rules for ship stability differ slightly from the standard Simpson's rules by adding a third rule used to find a specific area when given three consecutive ordinates. Simpson's rules are used to determine the waterplane area or volume of irregularly shaped hulls, the area under the righting arm curve (for application in dynamic stability). They can also be applied to find the KB and the LCF depending on the perspective of the ship.
 
 >Simpson's First Rule (1-4-1 rule) is used to find an area when there is an odd number of ordinates (such as 3, 5, 7, etc..).
@@ -405,7 +399,6 @@ Because trimming moments uses the same total moments / total weight equation tha
 
 ![simpson's third rule diagram]()
 ## Bilging and Permeability
-#bilging #permeability #draft #stowage
 Permeability as a percentage is a measure of the amount of water that is able to fill a compartment with other equipment occupying the space of that compartment. An example of this is that the engine room typically has anywhere from 85% to 95% permeability, due to the engine and machinery taking up *volume within that space*. Therefore, it can be said that;
 
 >permeability % (the decimal answer being multiplied by 100 to obtain a percentage) = (compartment total volume - cargo volume) / total compartment volume
@@ -415,7 +408,6 @@ Permeability is a factor into bilging, which is when an underwater space is floo
 >new draft due to bilging = compartment volume "the flooded space" / (ship WPA - compartment WPA) "intact waterplane area"
 
 ## Pressure and Thrust
-#pressure #thrust #maxheight
 Water pressure increase uniformly with depth, because hydrostatic pressure at any depth is due to the weight of the water above the point in question. Therefore, pressure depends on water density and depth. The force of thrust on an area is equal to pressure multiplied by that area. A typical example of thrust and pressure applied to shipping work would be using a maximum pressure with a density of cargo to determine a maximum allowable height that the cargo in question can be loaded.
 
 >pressure = ρ (density) x depth
@@ -425,7 +417,6 @@ Water pressure increase uniformly with depth, because hydrostatic pressure at an
 >*+stowage factor and density have an inverse relationship*
 
 ## Shearing Force and Bending Moments
-#shearing #bending #stresses
 Ships are designed and built to withstand the many forces to which they may be subjected over the course of their service. Of particular note is [[#^shearing]] force, which is caused when one compartment is loaded differently than the adjacent compartment, which creates an uneven distribution of both *weight and buoyancy* putting opposite forces onto such compartments. Stresses can be divided into static force (constant and unchanging force) which constitutes loaded weight (G) and hydrostatic pressure (B), and dynamic force (changing all the time) which constitutes motion like waves and wind and other mostly meteorological applied force.
 
 In the ship's stability booklet, *shearing force* and *bending moments* are calculated for the many standardized conditions expected during operation. Shearing force is the sum of the loads acting to the left or right of the position in question, while bending moments are a measure of the total moments tending to alter its shape, and is equal to the algebraic sum of the moments of all loads acting between the concerning sections. In simpler terms, shearing force is the sum of weight times buoyancy over the length of a vessel; while bending moments are the product of shearing force multiplied by distance over the length of the vessel. Shear force tends to be a sharp and angular graph, while bending moments are more curved. A peak and then dip in shearing force tends to indicate hogging, while a dip and then peak will indicate sag; but this varies case-by case.
@@ -435,11 +426,9 @@ In the ship's stability booklet, *shearing force* and *bending moments* are calc
 ***
 
 ## Ship Construction
-#construction #diagrams 
 By now, we would hope to have a good general idea of how a ship is constructed and the terminology used to express certain parts of the ship. The ship is subject to all manner of forces, so it must naturally be constructed in such a way as to minimize the damages that these forces can inflict, thus preserving the watertight integrity of the vessel. Different ships are constructed in different ways; a fishing vessel looks different than a container ship because it is built in a different way to accommodate the nature of its work.
 
 ## Ship Stresses
-#stresses
 The ship as a body in water is able to move in 3 planes with 6 general degrees of motion; yawing and heaving, surging and rolling, and pitching and swaying. These degrees of motion combined with the construction of the vessel and force of the loads the vessel are subject to will produce a number of structural stresses in all conditions. When a load is applied, *stress* is created on the area where the load is distributed. Prolonged stresses to an area will eventually cause *deformation* or *strain*, which is the permanent warping of an area due to stress and which if left unchecked will eventually lead to breakage of the area (such as 'back breaking' when hogging stress eventually leads the keel to snap in half). Compressive stress is the result of forces pressing an area tightly together (in a squeezing manner); while tension is the result of forces pulling an area in opposite directions (in a stretching manner). Due to the nature of vessel construction, various forces will compress the upper deck while tensing the keel or vice versa. Some of the stresses that uneven loading will produce are;
 
 - Sagging - a vessel that is heavier at the midship than the fore and aft end is subject to sagging, which will produce *compression* on the upper deck and *tension* on the keel. This is a type of longitudinal stress. Despite even loading, a long vessel will still be subject to temporary dynamic sagging stress as waves pass and the crests of waves support each end, while the midship lay in the trough unsupported.
@@ -454,7 +443,6 @@ The ship as a body in water is able to move in 3 planes with 6 general degrees o
 [diagrams of hog and sag]()
 
 ## Structural Components
-#construction 
 The primary structural reinforcements of the ship can be broken into the degree (longitudinal, transverse or vertical) by which they are built to provide strength. 
 
 Longitudinal reinforcements
@@ -476,19 +464,16 @@ Vertical reinforcements
 These components will reappear under many specific names and variations, but as long as you have a good understanding of the general naming principles, you should be able to have a good enough understanding of structural terminology.
 
 ## Composition of the Bow
-#construction 
 The panting region is found in the bow, where special reinforcement is made to reduce the effects of this stress on the bow. The plated stem composes the hull structure, and is supported by a combination of decks and frames. Decks are supported by both panting beams and panting stringers, and frames are spaced closer together in the panting region. Brackets provide additional support to the decks. The collision bulkhead is watertight and keeps the bow separate from the rest of the ship. The forepeak tank is enclosed in the bow and is used mostly as a ballasting region, typically to change the trim of the vessel. The forepeak tank has washplates and bulkhead subdivisions that reduce the free surface effects within the tank. Above the bow, on the top deck is the forecastle, where the mooring winches and anchor windlasses are. The anchor cable runs from the chain locker, where the bitter end is secured to the bulkhead, out through the spurling pipe and through the anchor windlass. The rest of the anchor chain runs out through the hawse pipe to the anchor itself. 
 
 [diagram of the bow]()
 
 ## Composition of the Stern
-#construction 
 The pounding region lies on the stern, and the stern region is especially reinforced to withstand the effects of pounding as well as the vibration and force of the rudder shaft. The afterpeak bulkhead separates the aft end from the machinery spaces (typically from the engine room at the stern of the ship). The stern tube is watertight (secured with a retaining ring) and is lined with bearings which lubricate the shaft. The stern tube is joined to the propellor by the propellor boss (secured via the stern nuts) and the propellor boss runs through a watertight opening in the stern frame. At the bottom of the stern frame is the cast sole piece, where in certain configurations of the rudder is where the stern pintle connects to the rudder blade. The top of the rudder blade is joined by the heel pintle, which connects to the rudder trunk where an inspection manhole is available for maintenance of the rudder. Above the rudder trunk lies the steering flat or steering gear, where the rudder emergency steering is accessed. The entire stern frame is reinforced with horizontal webbing (longitudinally) and floors (transversely). The aft peak tank is at the stern and, like the forepeak tank, is used primarily for ballasting and altering the trim of the vessel. It is quite common that the vessel is trimmed by the stern, and due to the nature of the ballasting tank the aft peak tank is subdivided to reduce free surface effect.
 
 [diagram of the stern]()
 
 ## Transverse Sections and the Double Bottom
-#construction 
 The transverse configuration of a compartment will vary greatly depending on the type of ship. Large cargo bulkers may have hopper tanks at the top and bottom sides of the hold, allowing ballast or additional cargo to be loaded. On the sides, composing the hull itself, transverse side frames support the side shell. Certain configurations of tanks allow decks to run transversely, which are supported by beams. On the top of a hatch, it will be surrounded by a coaming which provides a layer of protection against water running into the tank.
 
 The double bottom is both a tank and means of structural reinforcement between the keel and the enclosed compartments and cargo spaces of the ship. Historically, the double bottom could be used as a ballast tank; but now regulation prohibits the storage of water within this space and it instead acts as an additional layer of protection between tanks and the hull. The double bottom is either constructed in *solid floor* or *bracket floor* style, where the solid floor construction tends to provide greater reinforcement and structural strength at the cost of increased weight, while the bracket style construction still gives structural reinforcement to the compartment while being much less heavy and expensive to manufacture. The double bottom is reinforced longitudinally with girders and longitudinals, and transversely with frames and floors. Solid floors are constructed with a lightening hole to decrease overall weight, allow liquid to flow between frames, and to allow inspection of the space. The upper deck of the double bottom is sometimes referred to as either the 'inner bottom' or 'tank top' (as the double bottom is technically a tank). ^db
@@ -497,7 +482,6 @@ The double bottom is both a tank and means of structural reinforcement between t
 [diagram of the double bottom]()
 
 ## Miscellaneous Structural Components
-#construction 
 The 'railings' around the decks are referred to as bulwarks. Bulwarks are no less than 1 metre high, except in cases where the height would interfere with the work being done in that area. The bulwarks are supported by stantions or stays, which are spaced 1.2 metres apart, but on class B ships are spaced closer together. The bulwark does not extend all the way to the deck, leaving a gap called the 'freeing port' which allows water to shed off the deck, reducing on-deck free surface effects.
 
 [diagram of the bulwark]()

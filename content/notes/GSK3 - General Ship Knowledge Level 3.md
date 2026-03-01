@@ -1,8 +1,17 @@
 ---
 publish: true
-modified: 2026-02-28T08:30:37-08:00
+modified: 2026-02-28T20:10:48-08:00
+tags:
+  - regulations
+  - canadian
+  - WKM
+title: GSK3 notes
 ---
-## General Ship Knowledge 3
+- [ ] update links to publications
+- [ ] browse notes and update as is needed
+- [ ] add syllabus
+- [ ] note that MARPOL and UNCLOS are not actually given during examinations
+- [ ] adjust intro format to be consistent with other notes
 
 ### Acquiring Publications Used
 

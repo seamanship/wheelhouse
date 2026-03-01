@@ -1,4 +1,13 @@
-I love ships and I love the internet- so here is my collection of bookmarks relating to anything and everything maritime-related.
+---
+created: 2026-02-28T10:05:52-08:00
+modified: 2026-02-28T20:16:21-08:00
+publish: true
+tags:
+  - library
+  - web
+title: Maritime Links
+---
+I love ships and I love the internet- so here is my collection of bookmarks relating to anything and everything maritime-related. 
 ### General Marine Interest
 - [Cargolaw.com](http://web.archive.org/web/20240324051441/https://cargolaw.com/gallery.html) Archive of the marine insurance website cargolaw.com, which regularily reported on transportation loss incidents, mainly marine losses, operating from 1998 ~ 2014. Contains hundreds of photos and writeups of various marine disasters. Covers the iconic [M/V Springbok and Gas Roman collision](http://web.archive.org/web/20240324051443/https://cargolaw.com/2003nightmare_t-bone.html) and gives a historic perspective on what it was like to watch the [Tricolor Disaster](http://web.archive.org/web/20240324051443/https://cargolaw.com/2003nightmare_tricolor.html) unfold in real time. The original site was updated in 2024 and the old site articles are only viewable in the wayback machine.
 - [Worldwide Lighthouse Directory](https://www.ibiblio.org/lighthouse/index.htm), which is split into regions for easy access. Regularily updated and maintained by loyal lighthouse fans from around the world.  
@@ -15,6 +24,7 @@ I love ships and I love the internet- so here is my collection of bookmarks rela
 - [Nauticapedia, the virutal maritime museum of British Columbia](https://www.nauticapedia.ca/index.php) virtual museum dedicated to the history of marine work in British Columbia.
 
 ### Learning and Professional Interest
+- [[Seamanship Texts]] my personal library of textbooks and resources.
 - [Maritime Safety Information Database](https://msi.nga.mil/Publications) from the national geospacial intelligence agency. Has many free supplemental publications used and calculators for navigation and passage-planning. Also serves as a database for notices to mariners, piracy, and nav warnings.
 - [thenauticalsite.in](http://thenauticalsite.in/NauticalNotes.html) digital note database for studying watchkeepers. Covers a bulk of material in the watchkeeping mate curriculum up to second mate level examinations. Very old site... Information is not up to date but still serves a good enough purpose for guidance.
 - [dieselduck](https://www.dieselduck.info/index.html) canadian website focused on the marine engineering component of shipping. fantastic industry resources for engineers. One of the greatest sites out there for anyone interested in the industry.

@@ -1,6 +1,16 @@
 ---
 publish: true
+tags:
+  - navigation
+  - colregs
+  - orals
+  - WKM
+modified: 2026-02-28T20:03:34-08:00
+title: NS1 notes
 ---
+- [ ] replace old internal links with footnote links
+- [ ] add the syllabus
+- [ ] touch up older note work with regards to orals
 
 ###### Precursor and Background
 Navigation Safety level 1 (NS1) is the entry level navigation safety course relevant to watchkeeping. It is one of the most important courses to the WKM curriculum and is a prerequisite for SEN-EPS, SEN-O, and ECDIS. Because of the applications of the collision regulations (COLREGs) to incident reduction in marine navigation, it has real applications and proficiency with the Colregs has real benefit to the navigator and it re-emerges consistently through watchkeeping studies. NS1 deals mostly with the application of the Colregs to single-vessel problems, whereas NS2 is a more complex application and interpretation of the rules arising from multi-vessel problems and systemic limitations. NS1 is one of the only courses in the WKM curriculum that is unaccredited; meaning that everyone must write their examinations through Transport Canada rather than taking an accredited examination offered by a marine institution. 
@@ -17,10 +27,10 @@ This is one of the most difficult examinations in the WKM curriculum. There is n
 
 ***
 
-**Considerations:** the language used within the colregs is extremely technical and the wording of rules should be carefully noted, particularily the differences between words like 'shall' 'may' and 'must'. 'Shall' will always mean that an action _must_ be taken, wheras 'may' indicates that it is compulsory. Vessel size is also very particular and there is a crucial difference between 'greater than __/less than __' and 'of __ or more/ of __ or less'. An example of this would be a vessel less than 20 meters, which references a vessel from 0 m-to 19.9999 meters- any value that is under 20 meters; as opposed to 20 meters or less, which would include vessels 0 meters - 20 meters. It seems quite straightforward, but it is extremely important to have a solid understanding of the wording used in the regulations because it is crucial in interpretation of the rules.
+**Considerations:** the language used within the colregs is extremely technical and the wording of rules should be carefully noted, particularily the differences between words like 'shall' 'may' and 'must'. 'Shall' will always mean that an action _must_ be taken, wheras 'may' indicates that it is compulsory. Vessel size is also very particular and there is a crucial difference between 'greater than _/less than _' and 'of __ or more/ of __ or less'. An example of this would be a vessel less than 20 meters, which references a vessel from 0 m-to 19.9999 meters- any value that is under 20 meters; as opposed to 20 meters or less, which would include vessels 0 meters - 20 meters. It seems quite straightforward, but it is extremely important to have a solid understanding of the wording used in the regulations because it is crucial in interpretation of the rules.
 
 ### Part A- General
-#application #definitions
+#definitions 
 
 **(1) Application**:
 
