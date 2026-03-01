@@ -1,10 +1,10 @@
 ---
 publish: true
-modified: 2026-02-28T20:10:57-08:00
+modified: 2026-02-28T21:11:49-08:00
 tags:
   - meteorology
   - WKM
-title: MET2 notes
+title: MET2
 ---
 - [ ] touch up links
 - [ ] browse notes and touch up as needed heading into orals

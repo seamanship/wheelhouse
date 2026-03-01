@@ -5,8 +5,8 @@ tags:
   - colregs
   - orals
   - WKM
-modified: 2026-02-28T20:03:34-08:00
-title: NS1 notes
+modified: 2026-02-28T21:11:46-08:00
+title: NS1
 ---
 - [ ] replace old internal links with footnote links
 - [ ] add the syllabus

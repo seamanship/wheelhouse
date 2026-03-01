@@ -1,5 +1,5 @@
 ---
-modified: 2026-02-28T19:41:24-08:00
+modified: 2026-02-28T21:12:32-08:00
 tags:
   - library
   - navigation
@@ -20,7 +20,7 @@ Here is my collection of marine textbooks and study resources geared towards dec
 ### By Topic
 
 -  [Seamanship Techniques 3rd Edition](https://files.catbox.moe/760r2t.pdf) #seamanship 
-	Seamanship Techniques by DJ House is the comprehensive guide to being a deckhand, outlining all duties that a deckhand may encounter across the industry. Discusses anchoring, ropework, ship husbandry, steering techniques, etc... Aimed at the 'Ordinary Seaman' when studying to attain a '[Bridge Watchman](https://laws-lois.justice.gc.ca/eng/regulations/sor-2007-115/page-12.html#h-730273)' or the senior '[Able-Bodied Seaman](https://en.wikipedia.org/wiki/Able_seaman)' rating.
+	Seamanship Techniques by DJ House is the comprehensive guide to being a deckhand, outlining all  duties that a deckhand may encounter across the industry. Discusses anchoring, ropework, ship husbandry, steering techniques, etc... Aimed at the 'Ordinary Seaman' when studying to attain a '[Bridge Watchman](https://laws-lois.justice.gc.ca/eng/regulations/sor-2007-115/page-12.html#h-730273)' or the senior '[Able-Bodied Seaman](https://en.wikipedia.org/wiki/Able_seaman)' rating.
 
 - [Reed's Maritime Meteorology 3rd Edition](https://files.catbox.moe/5hio6c.pdf) #meteorology
 	This is the most widely used meteorology textbook by my peers in the industry who have self-studied and challenged their meterology examinations. Much of the drawings and long answer work for the meterology examinations can be taken directly from the textbook.

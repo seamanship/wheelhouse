@@ -1,11 +1,11 @@
 ---
 publish: true
-modified: 2026-02-28T20:10:48-08:00
+modified: 2026-02-28T21:11:56-08:00
 tags:
   - regulations
   - canadian
   - WKM
-title: GSK3 notes
+title: GSK3
 ---
 - [ ] update links to publications
 - [ ] browse notes and update as is needed

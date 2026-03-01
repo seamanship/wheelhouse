@@ -1,12 +1,12 @@
 ---
 publish: true
-modified: 2026-02-28T20:11:41-08:00
+modified: 2026-02-28T21:11:43-08:00
 tags:
   - stability
   - construction
   - diagrams
   - WKM
-title: SCS4 notes
+title: SCS4
 ---
 - [ ] add diagrams and scanned work
 - [ ] add formula sheet (either a scan of my own or a screenshot of the formulas from kemp and young)
@@ -20,11 +20,11 @@ To succeed in SCS4 I would highly recommend completing a math refresher course f
 Using others' standard stability formula sheets can be helpful to gauge which formulas from the material are noteworthy and used frequently; but ultimately it will be the most helpful to create your own formula sheet and take care noting what each value within the formula actually represents (ie. whether the value 'D' refers to draft, depth, or distance to a particular point.). There are between 30-40 formulas which are used repeatedly for calculation. This is a very intimidating course, so any work which can be done to split it into bite-sized chunks will really aid the learning process. 
 
 ### Resources
-[Khan Academy](https://www.khanacademy.org/) for math refreshers and help.
-[Derret's Ship Stability for Masters and Mates](https://files.catbox.moe/uyhgii.pdf) most widely used stability textbook. because it's oriented towards both masters and mates, this is quite a dense textbook. there are plenty of example problems and answers, but there is a lack of questions using hydrostatic data from the stability book itself, which presents a challenge.
-[Eyre's Ship Construction](https://file.garden/aIK7T2ngWhc8oB6b/textbooks/ShipConstruction.pdf) helpful aid to the construction portion of the course, but be aware it is more oriented towards the naval architect than the average watchkeeper.
-[Dokkum's Ship Stability](https://file.garden/aIK7T2ngWhc8oB6b/textbooks/dokkum_stability.pdf) and [Encylopedia of Ship Knowledge](https://file.garden/aIK7T2ngWhc8oB6b/textbooks/dokkum_ShipKnowledge.pdf) are a fantastic pair of textbooks for both the stability and construction portions of the course, respectively. The diagrams in the stability textbook are fairly easy to understand as opposed to the Derret's textbook; and I personally find the ship knowledge textbook to be a fantastic resource as it is full of photos of different types of vessels, perspectives from simulations, and shipyard photos of actual construction.
-[Kemp and Young Ship Stability](https://file.garden/aIK7T2ngWhc8oB6b/textbooks/kemp%20and%20young%20stability%20notes.pdf) another fantastic and concise textbook from the more dated Kemp and Young series. The stability textbook has a rather straightforward and concise formula sheet at the start which may be useful for some. There is also a construction textbook "Ship Construction Sketches and Notes" in the kemp and young series which I was not able to find as a pdf... but it always seems to be available at a very modest price and from what I have seen in person, the sketches and diagrams pertain exactly to the curriculum.
+- [Khan Academy](https://www.khanacademy.org/) for math refreshers and help.
+- [Derret's Ship Stability for Masters and Mates](https://files.catbox.moe/uyhgii.pdf) most widely used stability textbook. because it's oriented towards both masters and mates, this is quite a dense textbook. there are plenty of example problems and answers, but there is a lack of questions using hydrostatic data from the stability book itself, which presents a challenge.
+- [Eyre's Ship Construction](https://file.garden/aIK7T2ngWhc8oB6b/textbooks/ShipConstruction.pdf) helpful aid to the construction portion of the course, but be aware it is more oriented towards the naval architect than the average watchkeeper.
+- [Dokkum's Ship Stability](https://file.garden/aIK7T2ngWhc8oB6b/textbooks/dokkum_stability.pdf) and [Encylopedia of Ship Knowledge](https://file.garden/aIK7T2ngWhc8oB6b/textbooks/dokkum_ShipKnowledge.pdf) are a fantastic pair of textbooks for both the stability and construction portions of the course, respectively. The diagrams in the stability textbook are fairly easy to understand as opposed to the Derret's textbook; and I personally find the ship knowledge textbook to be a fantastic resource as it is full of photos of different types of vessels, perspectives from simulations, and shipyard photos of actual construction.
+- [Kemp and Young Ship Stability](https://file.garden/aIK7T2ngWhc8oB6b/textbooks/kemp%20and%20young%20stability%20notes.pdf) another fantastic and concise textbook from the more dated Kemp and Young series. The stability textbook has a rather straightforward and concise formula sheet at the start which may be useful for some. There is also a construction textbook "Ship Construction Sketches and Notes" in the kemp and young series which I was not able to find as a pdf... but it always seems to be available at a very modest price and from what I have seen in person, the sketches and diagrams pertain exactly to the curriculum.
 
 ### Syllabus
 *+see section 5.11 of TP2293e for the up to date syllabus..* #syllabus
@@ -72,7 +72,6 @@ w - weight, typically of an object. only the lowercase w is used.
 - TPC - tonnes per centimetre immersion. this is a representation of how much a vessel will sink or rise by 1cm depending on how many tonnes of cargo is loaded or discharged. ^tpc
 ***
 ## Foundations of Ship Stability
-#force #moments #buoyancy #floatation
 We are all aware that ships are buoyant, and that is why they are able to float despite their immense weight. Buoyancy is proven by [Archimedes' principle](https://en.wikipedia.org/wiki/Archimedes%27_principle), which states in layman's terms  that the upward force of buoyancy is equal to the weight of displacement of an object either fully or partially submerged in fluid. Therefore, the displacement of a ship (which we touch upon later as the force of gravity opposing buoyancy) is equal to the upward force of buoyancy. The forces of gravity (the tonnes of water being displaced) and buoyancy (upward thrust equal to displacement) and their alignment to a ship are integral to stability. When a ship becomes too heavy it will exceed buoyancy and sink; but inversely when it is too light and therefore top heavy it risks tipping over. If gravity and buoyancy were perfectly aligned and no forces could push them out of line, the ship would remain upright; but obviously this is not the case and the forces of wind, waves, vessel movement and internal cargo movement will exert horizontal force and tilt the ship out of vertical alignment one way or another. These are where transverse (port/starboard) and longitudinal (fore/aft) stability come into play.
 Transverse stability is more critical than longitudinal stability, simply because the vessel will never be as wide (broad) as it is long. Because a minimum force of buoyancy (draft and reserve buoyancy) must be kept to keep the ship from tipping over, it is also very important to ensure that as the ship tilts ([[#^heel]] and [[#^list]]) it will also have enough reserve righting force (touched upon later as the righting lever, or GZ moment in [[#Transverse Stability (MGBK)]]) to ensure that it will return back to the upright position. Because gravity and buoyancy are forces which always work vertically, even when the ship itself is tilted over, their desire to become aligned will always goad the ship back into the upright position. Transverse stability can be thought of like balancing scales, or a board which is suspended at the midpoint (the ships centreline). As weight is added to one side of the board, it will tilt to that one side; and the act of the board tipping due to weight added is what is called a 'moment of force'. The degree to which the board, or ship, will tilt is dependant on the weight of the object being loaded or removed, and the length of the lever upon which the force acts (the distance from the middle point of equilibrium). This is why on large ships, the weight of one person moving from one side to the other has no effect on the transverse stability; but adding a shipping container to one side may cause it to list. In order for balance to be achieved, the weight on one side must equal the weight on the other side; or in other terms, the sum of *moments* on one side must be equal to the sum of moments on the other side. 
 
@@ -227,7 +226,7 @@ The changes to VCG (KG) will impact the GZ lever by changing GM. As the KG *incr
 >*+Gx is ultimately accounting for the vertical shift of Z
 >*+*this formula is not as important or reoccurring as the other formulas given in this section*
 ## Listing
-#GZ #GM #GGh
+
 Until now, we have only considered the vertical movement of G and how it affects KG and thus GM; now we will consider the *horizontal movement*, referred to as G-Gh, and how the offcentering of cargo creates inclination through [[#^list]]. Using the same principles as vertical shift of G, we also reuse the formula for the shift of cargo; GGh = (w x d) / △. This is because when accounting for the effects of list, we still calculate the vertical shift of cargo, and *then* account for the horizontal shift. Using the values found (GGh from horizontal movement, and new GM from vertical movement) we can then solve for the angle of list using the formula GGh / GM = Tanθ (θ= angle of list)
 
 >[!info] formulas for list
@@ -259,7 +258,6 @@ Due to the nature of list, there are times where draft on one side of the vessel
 
 >new draft due to list = 0.5Breadth x Sinθ + (old draft - rise of floor) x Cosθ (θ = angle of list)
 ## Free Surface Effect and Correction
-#FSC #FSM #GG1
 Free surface effect is the pendulum-like force of a liquid left to freely move back and forth across a deck or compartment. Free surface effect causes a *virtual* loss of GM and thus impacts stability; therefore it is one of the most worrisome and detrimental effects to account for onboard because it is a dynamic condition and can be difficult to deal with suddenly. Free surface effect can occur for many reasons, such as...
 - tanks that are not empty or full to the top (partially filled tanks are referred to as slack tanks)
 - ingress of water on deck due to heavy weather 
