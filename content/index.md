@@ -4,7 +4,7 @@ modified: 2026-02-28T20:28:35-08:00
 publish: true
 ---
 > Why is almost every robust healthy boy with a robust healthy soul in him, at some time or other crazy to go to sea? Why upon your first voyage as a passenger, did you yourself feel such a mystical vibration, when first told that you and your ship were now out of sight of land? Why did the old Persians hold the sea holy? Why did the Greeks give it a separate deity, and own brother of Jove? Surely all this is not without meaning. And still deeper the meaning of that story of Narcissus, who because he could not grasp the tormenting, mild image he saw in the fountain, plunged into it and was drowned. But that same image, we ourselves see in all rivers and oceans. It is the image of the ungraspable phantom of life; and this is the key to it all.
-> -*herman melville, moby dick*
+> -*herman melville, moby dick* 
 
 Welcome to my ***digital wheelhouse*** dedicated to the decommercialized curation of maritime knowledge, culture and personal reflections relating to my work and interest in the commercial marine transport industry. I do not write about the military marine complex in any capacity. Those so inclined to reach out to me for some reason or another can do so at seamenship@proton.me. 
 
