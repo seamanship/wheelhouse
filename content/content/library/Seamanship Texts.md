@@ -1,4 +1,7 @@
 ---
+publish: true
+title: Maritime Library
+created: 2026-02-28T19:51:07.107-08:00
 modified: 2026-02-28T19:41:24-08:00
 tags:
   - library
@@ -7,9 +10,9 @@ tags:
   - stability
   - construction
   - seamanship
-title: Maritime Library
-publish: true
+cssclasses: ""
 ---
+
 ## Mariner's Library
 
 Here is my collection of marine textbooks and study resources geared towards deck compliment onboard. If you are interested in engineering or regulatory texts, I would check out [dieselduck](https://www.dieselduck.info/library/index.html) for a much broader and more in-depth library covering these topics. There are also a number of marine textbooks available on [rexresearch](https://www.rexresearch1.com/) in assorted categories. I also have a list of marine textbooks on the internet archive [available here](https://archive.org/details/@seamanship/lists/1/seamanship). 

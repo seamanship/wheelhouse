@@ -1,11 +1,14 @@
 ---
 publish: true
+title: MET2 notes
+created: 2026-02-28T19:51:07.167-08:00
 modified: 2026-02-28T20:10:57-08:00
 tags:
   - meteorology
   - WKM
-title: MET2 notes
+cssclasses: ""
 ---
+
 - [ ] touch up links
 - [ ] browse notes and touch up as needed heading into orals
 - [ ] add syllabus

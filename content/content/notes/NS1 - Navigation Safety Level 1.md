@@ -1,13 +1,16 @@
 ---
 publish: true
+title: NS1 notes
+created: 2026-02-28T19:51:07.176-08:00
+modified: 2026-02-28T20:03:34-08:00
 tags:
   - navigation
   - colregs
   - orals
   - WKM
-modified: 2026-02-28T20:03:34-08:00
-title: NS1 notes
+cssclasses: ""
 ---
+
 - [ ] replace old internal links with footnote links
 - [ ] add the syllabus
 - [ ] touch up older note work with regards to orals
@@ -679,7 +682,7 @@ if necessary to attract the attention of another vessel any vessel may make ligh
 
 **(37) Distress Signals**:
 
-when a vessel is in distress and requires assistance she shall use or exhibit the signals described in [[#^annexiv]]
+when a vessel is in distress and requires assistance she shall use or exhibit the signals described in [[content/notes/NS1 - Navigation Safety Level 1#^annexiv]]
 
 ### Part E - Exemptions
 
