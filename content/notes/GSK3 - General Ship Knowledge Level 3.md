@@ -1,15 +1,12 @@
 ---
 publish: true
-title: GSK3 notes
-created: 2026-02-28T19:51:07.160-08:00
 modified: 2026-02-28T20:10:48-08:00
 tags:
   - regulations
   - canadian
   - WKM
-cssclasses: ""
+title: GSK3 notes
 ---
-
 - [ ] update links to publications
 - [ ] browse notes and update as is needed
 - [ ] add syllabus

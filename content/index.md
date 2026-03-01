@@ -2,12 +2,7 @@
 title: Digital Wheelhouse
 modified: 2026-02-28T20:28:35-08:00
 publish: true
-title: Digital Wheelhouse
-created: 2026-02-28T20:16:59.001-08:00
-modified: 2026-02-28T20:18:33-08:00
-cssclasses: ""
 ---
-
 > Why is almost every robust healthy boy with a robust healthy soul in him, at some time or other crazy to go to sea? Why upon your first voyage as a passenger, did you yourself feel such a mystical vibration, when first told that you and your ship were now out of sight of land? Why did the old Persians hold the sea holy? Why did the Greeks give it a separate deity, and own brother of Jove? Surely all this is not without meaning. And still deeper the meaning of that story of Narcissus, who because he could not grasp the tormenting, mild image he saw in the fountain, plunged into it and was drowned. But that same image, we ourselves see in all rivers and oceans. It is the image of the ungraspable phantom of life; and this is the key to it all.
 > -*herman melville, moby dick*
 
