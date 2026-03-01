@@ -1,6 +1,6 @@
 ---
 title: Digital Wheelhouse
-modified: 2026-02-28T14:04:32-08:00
+modified: 2026-02-28T20:28:35-08:00
 publish: true
 ---
 > Why is almost every robust healthy boy with a robust healthy soul in him, at some time or other crazy to go to sea? Why upon your first voyage as a passenger, did you yourself feel such a mystical vibration, when first told that you and your ship were now out of sight of land? Why did the old Persians hold the sea holy? Why did the Greeks give it a separate deity, and own brother of Jove? Surely all this is not without meaning. And still deeper the meaning of that story of Narcissus, who because he could not grasp the tormenting, mild image he saw in the fountain, plunged into it and was drowned. But that same image, we ourselves see in all rivers and oceans. It is the image of the ungraspable phantom of life; and this is the key to it all.
@@ -9,6 +9,8 @@ publish: true
 Welcome to my ***digital wheelhouse*** dedicated to the decommercialized curation of maritime knowledge, culture and personal reflections relating to my work and interest in the commercial marine transport industry. I do not write about the military marine complex in any capacity. Those so inclined to reach out to me for some reason or another can do so at seamenship@proton.me.
 
 > [!attention] This is a collection of my personal work and I'm not responsible for the application of knowledge contained within by an individual. Any responsible marine professional understands the channels by which they must operate and what is at stake for them. Regulations are constantly changing, so it is an individual's responsibility to stay up to date with the legal and domestic requirements relative to their certification and scope of expertise. We are all responsible for ourselves and for the protection of life and the environment at large.
+
+![image of ship's bridge](https://sanji.neocities.org/imageuploads/marine/nautinstbridge.png)
 
 Seafaring is an ancient practice adapted to modernity that is today responsible for the movement of more than 80% of goods globally. Much of the tradition that once comprised seafaring has been lost and set aside by the commercialisation of the industry; but the roots in tradition are so deep and widespread that a lot of language originates from seafaring. I am personally not so much interested in the preservation of seafaring tradition, as there are many others already doing this work; but rather instead my interest lies in the distribution of information about the maritime complex, shipping, and seafaring as a noble (and difficult) career path. In 2019 I joined the marine industry as an ordinary seaman and fell in love with everything about ships. I could go on for hours listing everything I love (and everything I dislike too) about being a mariner- which is part of the reason why I decided to make this kind of page.
 
