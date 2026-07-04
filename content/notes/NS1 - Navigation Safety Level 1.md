@@ -8,10 +8,6 @@ tags:
 modified: 2026-02-28T21:11:46-08:00
 title: NS1
 ---
-- [ ] replace old internal links with footnote links
-- [ ] add the syllabus
-- [ ] touch up older note work with regards to orals
-
 ###### Precursor and Background
 Navigation Safety level 1 (NS1) is the entry level navigation safety course relevant to watchkeeping. It is one of the most important courses to the WKM curriculum and is a prerequisite for SEN-EPS, SEN-O, and ECDIS. Because of the applications of the collision regulations (COLREGs) to incident reduction in marine navigation, it has real applications and proficiency with the Colregs has real benefit to the navigator and it re-emerges consistently through watchkeeping studies. NS1 deals mostly with the application of the Colregs to single-vessel problems, whereas NS2 is a more complex application and interpretation of the rules arising from multi-vessel problems and systemic limitations. NS1 is one of the only courses in the WKM curriculum that is unaccredited; meaning that everyone must write their examinations through Transport Canada rather than taking an accredited examination offered by a marine institution. 
 
