@@ -53,8 +53,8 @@ Here is my collection of marine textbooks and study resources geared towards dec
 
 ### Publishers 
 
-- REEDS / [meteorology](https://files.catbox.moe/5hio6c.pdf) / [ship construction and stability](https://safe.voyage/seamanship/harbourlibrary) 
-	Reeds series of textbooks are widely used across the industry and are being reprinted regularily. Reed's has a substantial collection of marine engineering textbooks available, as well as plenty for deck work. They also publish a number of handbooks for reference and not necessarily aimed at study. I would consider Reed's the go-to for marine textbooks in-line with current exam syllabus and standards.
+- REEDS / [meteorology](https://files.catbox.moe/5hio6c.pdf) / ship construction and stability 
+	Reeds series of textbooks are widely used across the industry and are being reprinted regularly. Reed's has a substantial collection of marine engineering textbooks available, as well as plenty for deck work. They also publish a number of handbooks for reference and not necessarily aimed at study. I would consider Reed's the go-to for marine textbooks in-line with current exam syllabus and standards, but at the same time find them a little bit too information dense.
 - KEMP & YOUNG / [meteorology](https://archive.org/details/notesonmeteorolo0000kemp) / [ship stability](https://archive.org/details/shipstabilitynot0000kemp) / ship construction / [cargo work](https://archive.org/details/cargowork06edkemp) / [seamanship](https://archive.org/details/seamanshipnotes0000kemp)
 	Kemp and Young series of textbooks are a bit dated (~1990s) and are more of an oldschool marine resource aimed at deck compliment. What this means is that while the information inside the texts is correct, it might not be congruent with today's exam syllabus and additional material is needed to gain a full understanding of the topic to modern standards. Kemp and young textbooks are pretty short and always tend to be affordable (around $30-50 and much less for used textbooks)
 - DOKMAR / colregs / ship stability / ship construction
